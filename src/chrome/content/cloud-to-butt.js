@@ -31,10 +31,10 @@
     {
         var v = textNode.nodeValue;
     
-        v = v.replace(/\bThe Cloud\b/g, "My Butt");
-        v = v.replace(/\bThe cloud\b/g, "My butt");
-        v = v.replace(/\bthe Cloud\b/g, "my Butt");
-        v = v.replace(/\bthe cloud\b/g, "my butt");
+        v = v.replace(/\bai\b/g, "garlic");
+        v = v.replace(/\bAI\b/g, "Garlic");
+        v = v.replace(/\bChatGPT\b/g, "Garlic man");
+        v = v.replace(/\bchatgpt\b/g, "garlic man");
     
         textNode.nodeValue = v;
     }
